@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IBDocumentLocation</key>
+	<string>418 209 356 240 0 0 1680 1028 </string>
+	<key>IBEditorPositions</key>
+	<dict>
+		<key>81</key>
+		<string>682 555 316 311 0 0 1680 1028 </string>
+	</dict>
+	<key>IBFramework Version</key>
+	<string>446.1</string>
+	<key>IBGroupedObjects</key>
+	<dict>
+		<key>2</key>
+		<array>
+			<string>90</string>
+			<string>89</string>
+			<string>93</string>
+			<string>87</string>
+			<string>92</string>
+			<string>94</string>
+			<string>157</string>
+			<string>95</string>
+			<string>97</string>
+			<string>98</string>
+			<string>86</string>
+			<string>91</string>
+			<string>99</string>
+			<string>159</string>
+			<string>100</string>
+			<string>96</string>
+			<string>101</string>
+			<string>108</string>
+			<string>110</string>
+			<string>107</string>
+			<string>109</string>
+			<string>82</string>
+		</array>
+	</dict>
+	<key>IBLastGroupID</key>
+	<string>4</string>
+	<key>IBOldestOS</key>
+	<integer>4</integer>
+	<key>IBOpenObjects</key>
+	<array>
+		<integer>81</integer>
+	</array>
+	<key>IBSystem Version</key>
+	<string>8P2137</string>
+	<key>targetFramework</key>
+	<string>IBCocoaFramework</string>
+</dict>
+</plist>

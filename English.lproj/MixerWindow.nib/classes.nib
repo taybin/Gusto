@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = PSMixerView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {
+            CLASS = PSMixerWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {mixerView = PSMixerView; }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

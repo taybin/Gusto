@@ -1,0 +1,1053 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0BA121AA0D35E4D900B40195 /* Dependents */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0BA121AF0D35E4FF00B40195 /* Build configuration list for PBXAggregateTarget "Dependents" */;
+			buildPhases = (
+				0BA121A90D35E4D900B40195 /* Copy Frameworks */,
+			);
+			dependencies = (
+			);
+			name = Dependents;
+			productName = Dependents;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1B4459AF0D23DDAC00DDE98F /* libfftw3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B44599E0D23DDAC00DDE98F /* libfftw3.3.dylib */; };
+		1B4459B00D23DDAC00DDE98F /* libglib-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B44599F0D23DDAC00DDE98F /* libglib-2.0.0.dylib */; };
+		1B4459B10D23DDAC00DDE98F /* libglibmm-2.4.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B4459A00D23DDAC00DDE98F /* libglibmm-2.4.1.dylib */; };
+		1B4459B20D23DDAC00DDE98F /* libgmodule-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B4459A10D23DDAC00DDE98F /* libgmodule-2.0.0.dylib */; };
+		1B4459B30D23DDAC00DDE98F /* libgobject-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B4459A20D23DDAC00DDE98F /* libgobject-2.0.0.dylib */; };
+		1B4459B40D23DDAC00DDE98F /* libgthread-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B4459A30D23DDAC00DDE98F /* libgthread-2.0.0.dylib */; };
+		1B4459B50D23DDAC00DDE98F /* libintl.8.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B4459A40D23DDAC00DDE98F /* libintl.8.dylib */; };
+		1B4459B60D23DDAC00DDE98F /* liblo.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B4459A50D23DDAC00DDE98F /* liblo.0.dylib */; };
+		1B4459B70D23DDAC00DDE98F /* liblrdf.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B4459A60D23DDAC00DDE98F /* liblrdf.2.dylib */; };
+		1B4459B80D23DDAC00DDE98F /* libraptor.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B4459A70D23DDAC00DDE98F /* libraptor.1.dylib */; };
+		1B4459B90D23DDAC00DDE98F /* librubberband.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B4459A80D23DDAC00DDE98F /* librubberband.dylib */; };
+		1B4459BA0D23DDAC00DDE98F /* libsamplerate.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B4459A90D23DDAC00DDE98F /* libsamplerate.0.dylib */; };
+		1B4459BB0D23DDAC00DDE98F /* libsigc-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B4459AA0D23DDAC00DDE98F /* libsigc-2.0.0.dylib */; };
+		1B4459BC0D23DDAC00DDE98F /* libsndfile.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B4459AB0D23DDAC00DDE98F /* libsndfile.1.dylib */; };
+		1B4459C00D23DDCB00DDE98F /* libfftw3.3.dylib in Copy Libraries */ = {isa = PBXBuildFile; fileRef = 1B44599E0D23DDAC00DDE98F /* libfftw3.3.dylib */; };
+		1B4459C10D23DDCB00DDE98F /* libglib-2.0.0.dylib in Copy Libraries */ = {isa = PBXBuildFile; fileRef = 1B44599F0D23DDAC00DDE98F /* libglib-2.0.0.dylib */; };
+		1B4459C20D23DDCB00DDE98F /* libglibmm-2.4.1.dylib in Copy Libraries */ = {isa = PBXBuildFile; fileRef = 1B4459A00D23DDAC00DDE98F /* libglibmm-2.4.1.dylib */; };
+		1B4459C30D23DDCB00DDE98F /* libgmodule-2.0.0.dylib in Copy Libraries */ = {isa = PBXBuildFile; fileRef = 1B4459A10D23DDAC00DDE98F /* libgmodule-2.0.0.dylib */; };
+		1B4459C40D23DDCB00DDE98F /* libgobject-2.0.0.dylib in Copy Libraries */ = {isa = PBXBuildFile; fileRef = 1B4459A20D23DDAC00DDE98F /* libgobject-2.0.0.dylib */; };
+		1B4459C50D23DDCB00DDE98F /* libgthread-2.0.0.dylib in Copy Libraries */ = {isa = PBXBuildFile; fileRef = 1B4459A30D23DDAC00DDE98F /* libgthread-2.0.0.dylib */; };
+		1B4459C60D23DDCB00DDE98F /* libintl.8.dylib in Copy Libraries */ = {isa = PBXBuildFile; fileRef = 1B4459A40D23DDAC00DDE98F /* libintl.8.dylib */; };
+		1B4459C70D23DDCB00DDE98F /* liblo.0.dylib in Copy Libraries */ = {isa = PBXBuildFile; fileRef = 1B4459A50D23DDAC00DDE98F /* liblo.0.dylib */; };
+		1B4459C80D23DDCB00DDE98F /* liblrdf.2.dylib in Copy Libraries */ = {isa = PBXBuildFile; fileRef = 1B4459A60D23DDAC00DDE98F /* liblrdf.2.dylib */; };
+		1B4459C90D23DDCB00DDE98F /* libraptor.1.dylib in Copy Libraries */ = {isa = PBXBuildFile; fileRef = 1B4459A70D23DDAC00DDE98F /* libraptor.1.dylib */; };
+		1B4459CA0D23DDCB00DDE98F /* librubberband.dylib in Copy Libraries */ = {isa = PBXBuildFile; fileRef = 1B4459A80D23DDAC00DDE98F /* librubberband.dylib */; };
+		1B4459CB0D23DDCB00DDE98F /* libsamplerate.0.dylib in Copy Libraries */ = {isa = PBXBuildFile; fileRef = 1B4459A90D23DDAC00DDE98F /* libsamplerate.0.dylib */; };
+		1B4459CC0D23DDCB00DDE98F /* libsigc-2.0.0.dylib in Copy Libraries */ = {isa = PBXBuildFile; fileRef = 1B4459AA0D23DDAC00DDE98F /* libsigc-2.0.0.dylib */; };
+		1B4459CD0D23DDCB00DDE98F /* libsndfile.1.dylib in Copy Libraries */ = {isa = PBXBuildFile; fileRef = 1B4459AB0D23DDAC00DDE98F /* libsndfile.1.dylib */; };
+		1BD1084B0D237B170014F2E5 /* pbd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD108460D237AE20014F2E5 /* pbd.framework */; };
+		1BD1084C0D237B1D0014F2E5 /* pbd.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD108460D237AE20014F2E5 /* pbd.framework */; };
+		1BD1089A0D237C9B0014F2E5 /* midi++.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD108720D237C0A0014F2E5 /* midi++.framework */; };
+		1BD1089B0D237C9B0014F2E5 /* ardour.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD1086A0D237BF90014F2E5 /* ardour.framework */; };
+		1BD1089C0D237CA80014F2E5 /* midi++.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD108720D237C0A0014F2E5 /* midi++.framework */; };
+		1BD1089D0D237CA80014F2E5 /* ardour.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 1BD1086A0D237BF90014F2E5 /* ardour.framework */; };
+		1BE650490D235EB0000F3A25 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BE650480D235EB0000F3A25 /* Sparkle.framework */; };
+		1BE650D90D236CDE000F3A25 /* Sparkle.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 1BE650480D235EB0000F3A25 /* Sparkle.framework */; };
+		691B16BE0B9BA7CE006C241B /* AddTrack.nib in Resources */ = {isa = PBXBuildFile; fileRef = 691B16BC0B9BA7CE006C241B /* AddTrack.nib */; };
+		69361EEB0D271F5400801BDD /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 69361EEA0D271F5400801BDD /* libxml2.dylib */; };
+		695C2DBD0B8FC94B007B49A7 /* TrackControl.nib in Resources */ = {isa = PBXBuildFile; fileRef = 695C2DBB0B8FC94B007B49A7 /* TrackControl.nib */; };
+		69628D500DA32BA9007FEB95 /* Appleutility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69628D4F0DA32B8C007FEB95 /* Appleutility.framework */; };
+		69741E1A0BA8F92900FC5029 /* MixerWindow.nib in Resources */ = {isa = PBXBuildFile; fileRef = 69741E180BA8F92900FC5029 /* MixerWindow.nib */; };
+		697897300D39715C008CDD7F /* jackd in copy jackd */ = {isa = PBXBuildFile; fileRef = 6978972E0D397154008CDD7F /* jackd */; };
+		698E27210D393B7B00E4D538 /* libjack.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 698E27200D393B7B00E4D538 /* libjack.0.dylib */; };
+		698E27280D393B9D00E4D538 /* libjack.0.dylib in Copy Libraries */ = {isa = PBXBuildFile; fileRef = 698E27200D393B7B00E4D538 /* libjack.0.dylib */; };
+		69A5C85A0BA6220B00C0DBB6 /* EditorWindow.nib in Resources */ = {isa = PBXBuildFile; fileRef = 69A5C8580BA6220B00C0DBB6 /* EditorWindow.nib */; };
+		69B1B5830B8E86D0007E41C1 /* ardour.icns in Resources */ = {isa = PBXBuildFile; fileRef = 69B1B5820B8E86D0007E41C1 /* ardour.icns */; };
+		69B1B5B60B8E91A0007E41C1 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 69B1B5B20B8E91A0007E41C1 /* MainMenu.nib */; };
+		69C1F5990DB03C2200E8BFA6 /* Appleutility.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 69628D4F0DA32B8C007FEB95 /* Appleutility.framework */; };
+		69C1F6CB0DB042A700E8BFA6 /* libvamp-hostsdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C1F6C90DB042A700E8BFA6 /* libvamp-hostsdk.a */; };
+		69C1F6CC0DB042A700E8BFA6 /* libvamp-sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C1F6CA0DB042A700E8BFA6 /* libvamp-sdk.a */; };
+		69E685080B9270FD00445684 /* NewSessionWindow.nib in Resources */ = {isa = PBXBuildFile; fileRef = 69E685060B9270FD00445684 /* NewSessionWindow.nib */; };
+		69F2CAD30BAB297200BBA695 /* MixerStrip.nib in Resources */ = {isa = PBXBuildFile; fileRef = 69F2CAD10BAB297200BBA695 /* MixerStrip.nib */; };
+		69F818110BB2241400E533E7 /* PSFastMeter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 69F818090BB2241400E533E7 /* PSFastMeter.mm */; };
+		69F818130BB2241400E533E7 /* PSMixerStrip.mm in Sources */ = {isa = PBXBuildFile; fileRef = 69F8180B0BB2241400E533E7 /* PSMixerStrip.mm */; };
+		69F818150BB2241400E533E7 /* PSMixerView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 69F8180D0BB2241400E533E7 /* PSMixerView.mm */; };
+		69F818170BB2241400E533E7 /* PSMixerWindowController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 69F8180F0BB2241400E533E7 /* PSMixerWindowController.mm */; };
+		69F8181F0BB2242C00E533E7 /* PSControlsView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 69F818190BB2242C00E533E7 /* PSControlsView.mm */; };
+		69F818210BB2242C00E533E7 /* PSEditorTrack.mm in Sources */ = {isa = PBXBuildFile; fileRef = 69F8181B0BB2242C00E533E7 /* PSEditorTrack.mm */; };
+		69F818230BB2242C00E533E7 /* PSEditorWindowController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 69F8181D0BB2242C00E533E7 /* PSEditorWindowController.mm */; };
+		69F818330BB2244100E533E7 /* PSAddTrack.mm in Sources */ = {isa = PBXBuildFile; fileRef = 69F818250BB2244100E533E7 /* PSAddTrack.mm */; };
+		69F818350BB2244100E533E7 /* PSAppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 69F818270BB2244100E533E7 /* PSAppController.mm */; };
+		69F818370BB2244100E533E7 /* PSDocumentController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 69F818290BB2244100E533E7 /* PSDocumentController.mm */; };
+		69F818390BB2244100E533E7 /* PSNewDialogController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 69F8182B0BB2244100E533E7 /* PSNewDialogController.mm */; };
+		69F8183B0BB2244100E533E7 /* PSRouteUI.mm in Sources */ = {isa = PBXBuildFile; fileRef = 69F8182D0BB2244100E533E7 /* PSRouteUI.mm */; };
+		69F8183D0BB2244100E533E7 /* PSSessionDocument.mm in Sources */ = {isa = PBXBuildFile; fileRef = 69F8182F0BB2244100E533E7 /* PSSessionDocument.mm */; };
+		69F8183F0BB2244100E533E7 /* PSToggleButton.mm in Sources */ = {isa = PBXBuildFile; fileRef = 69F818310BB2244100E533E7 /* PSToggleButton.mm */; };
+		69F90AFF0BAF782B006F8C2D /* PreferencesWindow.nib in Resources */ = {isa = PBXBuildFile; fileRef = 69F90AFD0BAF782B006F8C2D /* PreferencesWindow.nib */; };
+		69F90B050BAF78F5006F8C2D /* PSPreferencesController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 69F90B030BAF78F5006F8C2D /* PSPreferencesController.mm */; };
+		69F90B8C0BAF7E68006F8C2D /* 2 Track.template in Copy Templates */ = {isa = PBXBuildFile; fileRef = 69F90B740BAF7E36006F8C2D /* 2 Track.template */; };
+		69F90B8D0BAF7E68006F8C2D /* 4 Tracks.template in Copy Templates */ = {isa = PBXBuildFile; fileRef = 69F90B750BAF7E36006F8C2D /* 4 Tracks.template */; };
+		69F90B8E0BAF7E68006F8C2D /* 8 Tracks.template in Copy Templates */ = {isa = PBXBuildFile; fileRef = 69F90B760BAF7E36006F8C2D /* 8 Tracks.template */; };
+		69F90B8F0BAF7E68006F8C2D /* 16 Tracks.template in Copy Templates */ = {isa = PBXBuildFile; fileRef = 69F90B770BAF7E36006F8C2D /* 16 Tracks.template */; };
+		69F90B900BAF7E68006F8C2D /* 32 Tracks.template in Copy Templates */ = {isa = PBXBuildFile; fileRef = 69F90B780BAF7E36006F8C2D /* 32 Tracks.template */; };
+		8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */; };
+		8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165FFE840EACC02AAC07 /* InfoPlist.strings */; };
+		8D15AC320486D014006FF6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1BD108450D237AE20014F2E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BE650240D235D41000F3A25 /* pbd.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8D07F2C80486CC7A007CD1D0;
+			remoteInfo = pbd;
+		};
+		1BD108490D237B0D0014F2E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BE650240D235D41000F3A25 /* pbd.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D07F2BC0486CC7A007CD1D0;
+			remoteInfo = pbd;
+		};
+		1BD108690D237BF90014F2E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BD1085A0D237BF90014F2E5 /* ardour.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8D07F2C80486CC7A007CD1D0;
+			remoteInfo = ardour;
+		};
+		1BD108710D237C0A0014F2E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BD1086B0D237C0A0014F2E5 /* midi++.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1BF877430D2024F100D386BF;
+			remoteInfo = "midi++";
+		};
+		1BD108960D237C820014F2E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BD1085A0D237BF90014F2E5 /* ardour.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D07F2BC0486CC7A007CD1D0;
+			remoteInfo = ardour;
+		};
+		1BD108980D237C860014F2E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BD1086B0D237C0A0014F2E5 /* midi++.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D07F2BC0486CC7A007CD1D0;
+			remoteInfo = "midi++";
+		};
+		69628D4E0DA32B8C007FEB95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69628D4A0DA32B8C007FEB95 /* AppleUtility.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
+			remoteInfo = appleutility;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1BE650DC0D236D12000F3A25 /* Copy Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 12;
+			files = (
+				698E27280D393B9D00E4D538 /* libjack.0.dylib in Copy Libraries */,
+				1B4459C00D23DDCB00DDE98F /* libfftw3.3.dylib in Copy Libraries */,
+				1B4459C10D23DDCB00DDE98F /* libglib-2.0.0.dylib in Copy Libraries */,
+				1B4459C20D23DDCB00DDE98F /* libglibmm-2.4.1.dylib in Copy Libraries */,
+				1B4459C30D23DDCB00DDE98F /* libgmodule-2.0.0.dylib in Copy Libraries */,
+				1B4459C40D23DDCB00DDE98F /* libgobject-2.0.0.dylib in Copy Libraries */,
+				1B4459C50D23DDCB00DDE98F /* libgthread-2.0.0.dylib in Copy Libraries */,
+				1B4459C60D23DDCB00DDE98F /* libintl.8.dylib in Copy Libraries */,
+				1B4459C70D23DDCB00DDE98F /* liblo.0.dylib in Copy Libraries */,
+				1B4459C80D23DDCB00DDE98F /* liblrdf.2.dylib in Copy Libraries */,
+				1B4459C90D23DDCB00DDE98F /* libraptor.1.dylib in Copy Libraries */,
+				1B4459CA0D23DDCB00DDE98F /* librubberband.dylib in Copy Libraries */,
+				1B4459CB0D23DDCB00DDE98F /* libsamplerate.0.dylib in Copy Libraries */,
+				1B4459CC0D23DDCB00DDE98F /* libsigc-2.0.0.dylib in Copy Libraries */,
+				1B4459CD0D23DDCB00DDE98F /* libsndfile.1.dylib in Copy Libraries */,
+			);
+			name = "Copy Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		692524830B97BC62008BA3C7 /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				69C1F5990DB03C2200E8BFA6 /* Appleutility.framework in Copy Frameworks */,
+				1BD1089C0D237CA80014F2E5 /* midi++.framework in Copy Frameworks */,
+				1BD1089D0D237CA80014F2E5 /* ardour.framework in Copy Frameworks */,
+				1BD1084C0D237B1D0014F2E5 /* pbd.framework in Copy Frameworks */,
+				1BE650D90D236CDE000F3A25 /* Sparkle.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6978972D0D397142008CDD7F /* copy jackd */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				697897300D39715C008CDD7F /* jackd in copy jackd */,
+			);
+			name = "copy jackd";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69F90B820BAF7E48006F8C2D /* Copy Templates */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			comments = "Copy template files into Resources/Templates.";
+			dstPath = Templates;
+			dstSubfolderSpec = 7;
+			files = (
+				69F90B8C0BAF7E68006F8C2D /* 2 Track.template in Copy Templates */,
+				69F90B8D0BAF7E68006F8C2D /* 4 Tracks.template in Copy Templates */,
+				69F90B8E0BAF7E68006F8C2D /* 8 Tracks.template in Copy Templates */,
+				69F90B8F0BAF7E68006F8C2D /* 16 Tracks.template in Copy Templates */,
+				69F90B900BAF7E68006F8C2D /* 32 Tracks.template in Copy Templates */,
+			);
+			name = "Copy Templates";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C1660FE840EACC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		1B44599E0D23DDAC00DDE98F /* libfftw3.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfftw3.3.dylib; path = libs/local/lib/libfftw3.3.dylib; sourceTree = "<group>"; };
+		1B44599F0D23DDAC00DDE98F /* libglib-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libglib-2.0.0.dylib"; path = "libs/local/lib/libglib-2.0.0.dylib"; sourceTree = "<group>"; };
+		1B4459A00D23DDAC00DDE98F /* libglibmm-2.4.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libglibmm-2.4.1.dylib"; path = "libs/local/lib/libglibmm-2.4.1.dylib"; sourceTree = "<group>"; };
+		1B4459A10D23DDAC00DDE98F /* libgmodule-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libgmodule-2.0.0.dylib"; path = "libs/local/lib/libgmodule-2.0.0.dylib"; sourceTree = "<group>"; };
+		1B4459A20D23DDAC00DDE98F /* libgobject-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libgobject-2.0.0.dylib"; path = "libs/local/lib/libgobject-2.0.0.dylib"; sourceTree = "<group>"; };
+		1B4459A30D23DDAC00DDE98F /* libgthread-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libgthread-2.0.0.dylib"; path = "libs/local/lib/libgthread-2.0.0.dylib"; sourceTree = "<group>"; };
+		1B4459A40D23DDAC00DDE98F /* libintl.8.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libintl.8.dylib; path = libs/local/lib/libintl.8.dylib; sourceTree = "<group>"; };
+		1B4459A50D23DDAC00DDE98F /* liblo.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liblo.0.dylib; path = libs/local/lib/liblo.0.dylib; sourceTree = "<group>"; };
+		1B4459A60D23DDAC00DDE98F /* liblrdf.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = liblrdf.2.dylib; path = libs/local/lib/liblrdf.2.dylib; sourceTree = "<group>"; };
+		1B4459A70D23DDAC00DDE98F /* libraptor.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libraptor.1.dylib; path = libs/local/lib/libraptor.1.dylib; sourceTree = "<group>"; };
+		1B4459A80D23DDAC00DDE98F /* librubberband.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = librubberband.dylib; path = libs/local/lib/librubberband.dylib; sourceTree = "<group>"; };
+		1B4459A90D23DDAC00DDE98F /* libsamplerate.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsamplerate.0.dylib; path = libs/local/lib/libsamplerate.0.dylib; sourceTree = "<group>"; };
+		1B4459AA0D23DDAC00DDE98F /* libsigc-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsigc-2.0.0.dylib"; path = "libs/local/lib/libsigc-2.0.0.dylib"; sourceTree = "<group>"; };
+		1B4459AB0D23DDAC00DDE98F /* libsndfile.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsndfile.1.dylib; path = libs/local/lib/libsndfile.1.dylib; sourceTree = "<group>"; };
+		1BD1085A0D237BF90014F2E5 /* ardour.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ardour.xcodeproj; path = libs/ardour/macosx/ardour.xcodeproj; sourceTree = SOURCE_ROOT; };
+		1BD1086B0D237C0A0014F2E5 /* midi++.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "midi++.xcodeproj"; path = "libs/midi++/macosx/midi++.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		1BE650240D235D41000F3A25 /* pbd.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = pbd.xcodeproj; path = libs/pbd/macosx/pbd.xcodeproj; sourceTree = SOURCE_ROOT; };
+		1BE650480D235EB0000F3A25 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		2A37F4B0FDCFA73011CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A37F4BAFDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		691B16BD0B9BA7CE006C241B /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/AddTrack.nib; sourceTree = "<group>"; };
+		69361EEA0D271F5400801BDD /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = /usr/lib/libxml2.dylib; sourceTree = "<absolute>"; };
+		6951E48E0BC1FC41004E9E5D /* logmeter.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = logmeter.h; sourceTree = "<group>"; };
+		695C2DBC0B8FC94B007B49A7 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/TrackControl.nib; sourceTree = "<group>"; };
+		69628D4A0DA32B8C007FEB95 /* AppleUtility.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AppleUtility.xcodeproj; path = libs/appleutility/AppleUtility/AppleUtility.xcodeproj; sourceTree = "<group>"; };
+		6968F8C60BA0F592008FD8C2 /* objcsigcglue.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = objcsigcglue.h; sourceTree = "<group>"; };
+		69741E190BA8F92900FC5029 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MixerWindow.nib; sourceTree = "<group>"; };
+		6978972E0D397154008CDD7F /* jackd */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; name = jackd; path = libs/local/bin/jackd; sourceTree = "<group>"; };
+		698E27200D393B7B00E4D538 /* libjack.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libjack.0.dylib; path = libs/local/lib/libjack.0.dylib; sourceTree = "<group>"; };
+		69A5C8590BA6220B00C0DBB6 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/EditorWindow.nib; sourceTree = "<group>"; };
+		69B1B5820B8E86D0007E41C1 /* ardour.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = ardour.icns; sourceTree = "<group>"; };
+		69B1B5B30B8E91A0007E41C1 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		69C1F6C90DB042A700E8BFA6 /* libvamp-hostsdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libvamp-hostsdk.a"; path = "libs/local/lib/libvamp-hostsdk.a"; sourceTree = "<group>"; };
+		69C1F6CA0DB042A700E8BFA6 /* libvamp-sdk.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libvamp-sdk.a"; path = "libs/local/lib/libvamp-sdk.a"; sourceTree = "<group>"; };
+		69E301F40B9684410015D73D /* Gusto_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = Gusto_Prefix.pch; sourceTree = "<group>"; };
+		69E685070B9270FD00445684 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/NewSessionWindow.nib; sourceTree = "<group>"; };
+		69F2CAD20BAB297200BBA695 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MixerStrip.nib; sourceTree = "<group>"; };
+		69F818080BB2241400E533E7 /* PSFastMeter.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PSFastMeter.h; sourceTree = "<group>"; };
+		69F818090BB2241400E533E7 /* PSFastMeter.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; path = PSFastMeter.mm; sourceTree = "<group>"; };
+		69F8180A0BB2241400E533E7 /* PSMixerStrip.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PSMixerStrip.h; sourceTree = "<group>"; };
+		69F8180B0BB2241400E533E7 /* PSMixerStrip.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; path = PSMixerStrip.mm; sourceTree = "<group>"; };
+		69F8180C0BB2241400E533E7 /* PSMixerView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PSMixerView.h; sourceTree = "<group>"; };
+		69F8180D0BB2241400E533E7 /* PSMixerView.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; path = PSMixerView.mm; sourceTree = "<group>"; };
+		69F8180E0BB2241400E533E7 /* PSMixerWindowController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PSMixerWindowController.h; sourceTree = "<group>"; };
+		69F8180F0BB2241400E533E7 /* PSMixerWindowController.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; path = PSMixerWindowController.mm; sourceTree = "<group>"; };
+		69F818180BB2242C00E533E7 /* PSControlsView.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PSControlsView.h; sourceTree = "<group>"; };
+		69F818190BB2242C00E533E7 /* PSControlsView.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; path = PSControlsView.mm; sourceTree = "<group>"; };
+		69F8181A0BB2242C00E533E7 /* PSEditorTrack.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PSEditorTrack.h; sourceTree = "<group>"; };
+		69F8181B0BB2242C00E533E7 /* PSEditorTrack.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; path = PSEditorTrack.mm; sourceTree = "<group>"; };
+		69F8181C0BB2242C00E533E7 /* PSEditorWindowController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PSEditorWindowController.h; sourceTree = "<group>"; };
+		69F8181D0BB2242C00E533E7 /* PSEditorWindowController.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; path = PSEditorWindowController.mm; sourceTree = "<group>"; };
+		69F818240BB2244100E533E7 /* PSAddTrack.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PSAddTrack.h; sourceTree = "<group>"; };
+		69F818250BB2244100E533E7 /* PSAddTrack.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; path = PSAddTrack.mm; sourceTree = "<group>"; };
+		69F818260BB2244100E533E7 /* PSAppController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PSAppController.h; sourceTree = "<group>"; };
+		69F818270BB2244100E533E7 /* PSAppController.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; path = PSAppController.mm; sourceTree = "<group>"; };
+		69F818280BB2244100E533E7 /* PSDocumentController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PSDocumentController.h; sourceTree = "<group>"; };
+		69F818290BB2244100E533E7 /* PSDocumentController.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; path = PSDocumentController.mm; sourceTree = "<group>"; };
+		69F8182A0BB2244100E533E7 /* PSNewDialogController.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PSNewDialogController.h; sourceTree = "<group>"; };
+		69F8182B0BB2244100E533E7 /* PSNewDialogController.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; path = PSNewDialogController.mm; sourceTree = "<group>"; };
+		69F8182C0BB2244100E533E7 /* PSRouteUI.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PSRouteUI.h; sourceTree = "<group>"; };
+		69F8182D0BB2244100E533E7 /* PSRouteUI.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; path = PSRouteUI.mm; sourceTree = "<group>"; };
+		69F8182E0BB2244100E533E7 /* PSSessionDocument.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PSSessionDocument.h; sourceTree = "<group>"; };
+		69F8182F0BB2244100E533E7 /* PSSessionDocument.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; path = PSSessionDocument.mm; sourceTree = "<group>"; };
+		69F818300BB2244100E533E7 /* PSToggleButton.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = PSToggleButton.h; sourceTree = "<group>"; };
+		69F818310BB2244100E533E7 /* PSToggleButton.mm */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.objcpp; path = PSToggleButton.mm; sourceTree = "<group>"; };
+		69F90AFE0BAF782B006F8C2D /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/PreferencesWindow.nib; sourceTree = "<group>"; };
+		69F90B020BAF78F5006F8C2D /* PSPreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSPreferencesController.h; sourceTree = "<group>"; };
+		69F90B030BAF78F5006F8C2D /* PSPreferencesController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PSPreferencesController.mm; sourceTree = "<group>"; };
+		69F90B740BAF7E36006F8C2D /* 2 Track.template */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; name = "2 Track.template"; path = "templates/2 Track.template"; sourceTree = "<group>"; };
+		69F90B750BAF7E36006F8C2D /* 4 Tracks.template */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; name = "4 Tracks.template"; path = "templates/4 Tracks.template"; sourceTree = "<group>"; };
+		69F90B760BAF7E36006F8C2D /* 8 Tracks.template */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; name = "8 Tracks.template"; path = "templates/8 Tracks.template"; sourceTree = "<group>"; };
+		69F90B770BAF7E36006F8C2D /* 16 Tracks.template */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; name = "16 Tracks.template"; path = "templates/16 Tracks.template"; sourceTree = "<group>"; };
+		69F90B780BAF7E36006F8C2D /* 32 Tracks.template */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; name = "32 Tracks.template"; path = "templates/32 Tracks.template"; sourceTree = "<group>"; };
+		8D15AC360486D014006FF6A4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D15AC370486D014006FF6A4 /* Gusto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gusto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D15AC330486D014006FF6A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69628D500DA32BA9007FEB95 /* Appleutility.framework in Frameworks */,
+				1B4459AF0D23DDAC00DDE98F /* libfftw3.3.dylib in Frameworks */,
+				1B4459B00D23DDAC00DDE98F /* libglib-2.0.0.dylib in Frameworks */,
+				1B4459B10D23DDAC00DDE98F /* libglibmm-2.4.1.dylib in Frameworks */,
+				1B4459B20D23DDAC00DDE98F /* libgmodule-2.0.0.dylib in Frameworks */,
+				1B4459B30D23DDAC00DDE98F /* libgobject-2.0.0.dylib in Frameworks */,
+				1B4459B40D23DDAC00DDE98F /* libgthread-2.0.0.dylib in Frameworks */,
+				1B4459B50D23DDAC00DDE98F /* libintl.8.dylib in Frameworks */,
+				1B4459B60D23DDAC00DDE98F /* liblo.0.dylib in Frameworks */,
+				1B4459B70D23DDAC00DDE98F /* liblrdf.2.dylib in Frameworks */,
+				1B4459B80D23DDAC00DDE98F /* libraptor.1.dylib in Frameworks */,
+				1B4459B90D23DDAC00DDE98F /* librubberband.dylib in Frameworks */,
+				1B4459BA0D23DDAC00DDE98F /* libsamplerate.0.dylib in Frameworks */,
+				1B4459BB0D23DDAC00DDE98F /* libsigc-2.0.0.dylib in Frameworks */,
+				1B4459BC0D23DDAC00DDE98F /* libsndfile.1.dylib in Frameworks */,
+				1BD1089A0D237C9B0014F2E5 /* midi++.framework in Frameworks */,
+				1BD1089B0D237C9B0014F2E5 /* ardour.framework in Frameworks */,
+				1BD1084B0D237B170014F2E5 /* pbd.framework in Frameworks */,
+				8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */,
+				1BE650490D235EB0000F3A25 /* Sparkle.framework in Frameworks */,
+				69361EEB0D271F5400801BDD /* libxml2.dylib in Frameworks */,
+				698E27210D393B7B00E4D538 /* libjack.0.dylib in Frameworks */,
+				69C1F6CB0DB042A700E8BFA6 /* libvamp-hostsdk.a in Frameworks */,
+				69C1F6CC0DB042A700E8BFA6 /* libvamp-sdk.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69C1F6C90DB042A700E8BFA6 /* libvamp-hostsdk.a */,
+				69C1F6CA0DB042A700E8BFA6 /* libvamp-sdk.a */,
+				698E27200D393B7B00E4D538 /* libjack.0.dylib */,
+				1B44599E0D23DDAC00DDE98F /* libfftw3.3.dylib */,
+				1B44599F0D23DDAC00DDE98F /* libglib-2.0.0.dylib */,
+				1B4459A00D23DDAC00DDE98F /* libglibmm-2.4.1.dylib */,
+				1B4459A10D23DDAC00DDE98F /* libgmodule-2.0.0.dylib */,
+				1B4459A20D23DDAC00DDE98F /* libgobject-2.0.0.dylib */,
+				1B4459A30D23DDAC00DDE98F /* libgthread-2.0.0.dylib */,
+				1B4459A40D23DDAC00DDE98F /* libintl.8.dylib */,
+				1B4459A50D23DDAC00DDE98F /* liblo.0.dylib */,
+				1B4459A60D23DDAC00DDE98F /* liblrdf.2.dylib */,
+				1B4459A70D23DDAC00DDE98F /* libraptor.1.dylib */,
+				1B4459A80D23DDAC00DDE98F /* librubberband.dylib */,
+				1B4459A90D23DDAC00DDE98F /* libsamplerate.0.dylib */,
+				1B4459AA0D23DDAC00DDE98F /* libsigc-2.0.0.dylib */,
+				1B4459AB0D23DDAC00DDE98F /* libsndfile.1.dylib */,
+				69628D4A0DA32B8C007FEB95 /* AppleUtility.xcodeproj */,
+				1BD1086B0D237C0A0014F2E5 /* midi++.xcodeproj */,
+				1BD1085A0D237BF90014F2E5 /* ardour.xcodeproj */,
+				1BE650240D235D41000F3A25 /* pbd.xcodeproj */,
+				1BE650480D235EB0000F3A25 /* Sparkle.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A8FEA54F5311CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69361EEA0D271F5400801BDD /* libxml2.dylib */,
+				1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */,
+				2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */,
+				2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB0FE9D524F11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6978972E0D397154008CDD7F /* jackd */,
+				8D15AC370486D014006FF6A4 /* Gusto.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BD108420D237AE20014F2E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BD108460D237AE20014F2E5 /* pbd.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BD108660D237BF90014F2E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BD1086A0D237BF90014F2E5 /* ardour.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BD1086E0D237C0A0014F2E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BD108720D237C0A0014F2E5 /* midi++.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A37F4AAFDCFA73011CA2CEA /* ArdourOSX */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4AFFDCFA73011CA2CEA /* Other Sources */,
+				2A37F4ABFDCFA73011CA2CEA /* Classes */,
+				2A37F4B8FDCFA73011CA2CEA /* Resources */,
+				69F90B670BAF7DBF006F8C2D /* Templates */,
+				2A37F4C3FDCFA73011CA2CEA /* Frameworks */,
+				19C28FB0FE9D524F11CA2CBB /* Products */,
+			);
+			name = ArdourOSX;
+			sourceTree = "<group>";
+		};
+		2A37F4ABFDCFA73011CA2CEA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				69477FA10BAB740C00C4A166 /* Mixer */,
+				69477FA00BAB73F800C4A166 /* Editor */,
+				69F818240BB2244100E533E7 /* PSAddTrack.h */,
+				69F818250BB2244100E533E7 /* PSAddTrack.mm */,
+				69F818260BB2244100E533E7 /* PSAppController.h */,
+				69F818270BB2244100E533E7 /* PSAppController.mm */,
+				69F818280BB2244100E533E7 /* PSDocumentController.h */,
+				69F818290BB2244100E533E7 /* PSDocumentController.mm */,
+				69F8182A0BB2244100E533E7 /* PSNewDialogController.h */,
+				69F8182B0BB2244100E533E7 /* PSNewDialogController.mm */,
+				69F8182C0BB2244100E533E7 /* PSRouteUI.h */,
+				69F8182D0BB2244100E533E7 /* PSRouteUI.mm */,
+				69F8182E0BB2244100E533E7 /* PSSessionDocument.h */,
+				69F8182F0BB2244100E533E7 /* PSSessionDocument.mm */,
+				69F818300BB2244100E533E7 /* PSToggleButton.h */,
+				69F818310BB2244100E533E7 /* PSToggleButton.mm */,
+				69F90B020BAF78F5006F8C2D /* PSPreferencesController.h */,
+				69F90B030BAF78F5006F8C2D /* PSPreferencesController.mm */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		2A37F4AFFDCFA73011CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				6951E48E0BC1FC41004E9E5D /* logmeter.h */,
+				6968F8C60BA0F592008FD8C2 /* objcsigcglue.h */,
+				69E301F40B9684410015D73D /* Gusto_Prefix.pch */,
+				2A37F4B0FDCFA73011CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		2A37F4B8FDCFA73011CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				691B16BC0B9BA7CE006C241B /* AddTrack.nib */,
+				69A5C8580BA6220B00C0DBB6 /* EditorWindow.nib */,
+				69B1B5B20B8E91A0007E41C1 /* MainMenu.nib */,
+				69F2CAD10BAB297200BBA695 /* MixerStrip.nib */,
+				69741E180BA8F92900FC5029 /* MixerWindow.nib */,
+				69E685060B9270FD00445684 /* NewSessionWindow.nib */,
+				69F90AFD0BAF782B006F8C2D /* PreferencesWindow.nib */,
+				695C2DBB0B8FC94B007B49A7 /* TrackControl.nib */,
+				69B1B5820B8E86D0007E41C1 /* ardour.icns */,
+				2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */,
+				8D15AC360486D014006FF6A4 /* Info.plist */,
+				089C165FFE840EACC02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2A37F4C3FDCFA73011CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */,
+				1058C7A8FEA54F5311CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69477FA00BAB73F800C4A166 /* Editor */ = {
+			isa = PBXGroup;
+			children = (
+				69F818180BB2242C00E533E7 /* PSControlsView.h */,
+				69F818190BB2242C00E533E7 /* PSControlsView.mm */,
+				69F8181A0BB2242C00E533E7 /* PSEditorTrack.h */,
+				69F8181B0BB2242C00E533E7 /* PSEditorTrack.mm */,
+				69F8181C0BB2242C00E533E7 /* PSEditorWindowController.h */,
+				69F8181D0BB2242C00E533E7 /* PSEditorWindowController.mm */,
+			);
+			name = Editor;
+			sourceTree = "<group>";
+		};
+		69477FA10BAB740C00C4A166 /* Mixer */ = {
+			isa = PBXGroup;
+			children = (
+				69F818080BB2241400E533E7 /* PSFastMeter.h */,
+				69F818090BB2241400E533E7 /* PSFastMeter.mm */,
+				69F8180A0BB2241400E533E7 /* PSMixerStrip.h */,
+				69F8180B0BB2241400E533E7 /* PSMixerStrip.mm */,
+				69F8180C0BB2241400E533E7 /* PSMixerView.h */,
+				69F8180D0BB2241400E533E7 /* PSMixerView.mm */,
+				69F8180E0BB2241400E533E7 /* PSMixerWindowController.h */,
+				69F8180F0BB2241400E533E7 /* PSMixerWindowController.mm */,
+			);
+			name = Mixer;
+			sourceTree = "<group>";
+		};
+		69628D4B0DA32B8C007FEB95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69628D4F0DA32B8C007FEB95 /* Appleutility.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69F90B670BAF7DBF006F8C2D /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				69F90B740BAF7E36006F8C2D /* 2 Track.template */,
+				69F90B750BAF7E36006F8C2D /* 4 Tracks.template */,
+				69F90B760BAF7E36006F8C2D /* 8 Tracks.template */,
+				69F90B770BAF7E36006F8C2D /* 16 Tracks.template */,
+				69F90B780BAF7E36006F8C2D /* 32 Tracks.template */,
+			);
+			name = Templates;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D15AC270486D014006FF6A4 /* Gusto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "Gusto" */;
+			buildPhases = (
+				8D15AC2B0486D014006FF6A4 /* Resources */,
+				8D15AC300486D014006FF6A4 /* Sources */,
+				8D15AC330486D014006FF6A4 /* Frameworks */,
+				692524830B97BC62008BA3C7 /* Copy Frameworks */,
+				69F90B820BAF7E48006F8C2D /* Copy Templates */,
+				69A5C8D90BA6335D00C0DBB6 /* Remove cruft */,
+				6933D56E0BBB332300E9B2A8 /* Update Version */,
+				1BE650DC0D236D12000F3A25 /* Copy Libraries */,
+				1B4459940D23DA6100DDE98F /* Install Name Script */,
+				6978972D0D397142008CDD7F /* copy jackd */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BD1084A0D237B0D0014F2E5 /* PBXTargetDependency */,
+				1BD108970D237C820014F2E5 /* PBXTargetDependency */,
+				1BD108990D237C860014F2E5 /* PBXTargetDependency */,
+			);
+			name = Gusto;
+			productInstallPath = "$(HOME)/Applications";
+			productName = ArdourOSX;
+			productReference = 8D15AC370486D014006FF6A4 /* Gusto.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "Gusto" */;
+			compatibilityVersion = "Xcode 3.0";
+			hasScannedForEncodings = 1;
+			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* ArdourOSX */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 69628D4B0DA32B8C007FEB95 /* Products */;
+					ProjectRef = 69628D4A0DA32B8C007FEB95 /* AppleUtility.xcodeproj */;
+				},
+				{
+					ProductGroup = 1BD108660D237BF90014F2E5 /* Products */;
+					ProjectRef = 1BD1085A0D237BF90014F2E5 /* ardour.xcodeproj */;
+				},
+				{
+					ProductGroup = 1BD1086E0D237C0A0014F2E5 /* Products */;
+					ProjectRef = 1BD1086B0D237C0A0014F2E5 /* midi++.xcodeproj */;
+				},
+				{
+					ProductGroup = 1BD108420D237AE20014F2E5 /* Products */;
+					ProjectRef = 1BE650240D235D41000F3A25 /* pbd.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				0BA121AA0D35E4D900B40195 /* Dependents */,
+				8D15AC270486D014006FF6A4 /* Gusto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		1BD108460D237AE20014F2E5 /* pbd.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = pbd.framework;
+			remoteRef = 1BD108450D237AE20014F2E5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1BD1086A0D237BF90014F2E5 /* ardour.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ardour.framework;
+			remoteRef = 1BD108690D237BF90014F2E5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1BD108720D237C0A0014F2E5 /* midi++.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = "midi++.framework";
+			remoteRef = 1BD108710D237C0A0014F2E5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		69628D4F0DA32B8C007FEB95 /* Appleutility.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Appleutility.framework;
+			remoteRef = 69628D4E0DA32B8C007FEB95 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D15AC2B0486D014006FF6A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */,
+				8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */,
+				69B1B5830B8E86D0007E41C1 /* ardour.icns in Resources */,
+				69B1B5B60B8E91A0007E41C1 /* MainMenu.nib in Resources */,
+				695C2DBD0B8FC94B007B49A7 /* TrackControl.nib in Resources */,
+				69E685080B9270FD00445684 /* NewSessionWindow.nib in Resources */,
+				691B16BE0B9BA7CE006C241B /* AddTrack.nib in Resources */,
+				69A5C85A0BA6220B00C0DBB6 /* EditorWindow.nib in Resources */,
+				69741E1A0BA8F92900FC5029 /* MixerWindow.nib in Resources */,
+				69F2CAD30BAB297200BBA695 /* MixerStrip.nib in Resources */,
+				69F90AFF0BAF782B006F8C2D /* PreferencesWindow.nib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BA121A90D35E4D900B40195 /* Copy Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\n\nARDOURPATH=\"libs/ardour/macosx/build/${CONFIGURATION}/ardour.framework\"\nPBDPATH=\"libs/pbd/macosx/build/${CONFIGURATION}/pbd.framework\"\nMIDIPATH=\"libs/midi++/macosx/build/${CONFIGURATION}/midi++.framework\"\nAPPLEUTILITYPATH=\"libs/appleutility/AppleUtility/build/${CONFIGURATION}/appleutility.framework\"\n\nNEWDIR=${BUILD_DIR}/${CONFIGURATION}\n\ncp -R ${PBDPATH} ${NEWDIR}\ncp -R ${ARDOURPATH} ${NEWDIR}\ncp -R ${MIDIPATH} ${NEWDIR}\ncp -R ${APPLEUTILITYPATH} ${NEWDIR}";
+		};
+		1B4459940D23DA6100DDE98F /* Install Name Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Install Name Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\nEXECFILE=${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\nLIBPATH=${BUILT_PRODUCTS_DIR}/${SHARED_SUPPORT_FOLDER_PATH}\nFRAMEPATH=${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}\nNEWLIBPATH=\"@executable_path/../SharedSupport\"\n\necho ${BUILD_PRODUCTS_DIR}\necho ${FRAMEWORKS_FOLDER_PATH}\necho ${FRAMEPATH}\n\n# space separated list of libraries\nTARGETS=\"librubberband.dylib liblo.0.dylib libfftw3.3.dylib libglib-2.0.0.dylib libglibmm-2.4.1.dylib libgmodule-2.0.0.dylib libgobject-2.0.0.dylib libgthread-2.0.0.dylib libintl.8.dylib liblrdf.2.dylib libraptor.1.dylib libsamplerate.0.dylib libsigc-2.0.0.dylib libsndfile.1.dylib libjack.0.dylib\"\n\n# pbd, midi++, ardour\nfor TARGET in ${TARGETS} ; do\nLIBFILE=${LIBPATH}/${TARGET}\nTARGETID=`otool -DX ${LIBPATH}/$TARGET`\nNEWTARGETID=${NEWLIBPATH}/${TARGET}\ninstall_name_tool -change ${TARGETID} ${NEWTARGETID} ${FRAMEPATH}/pbd.framework/Versions/A/pbd\ninstall_name_tool -change ${TARGETID} ${NEWTARGETID} ${FRAMEPATH}/midi++.framework/Versions/A/midi++\ninstall_name_tool -change ${TARGETID} ${NEWTARGETID} ${FRAMEPATH}/ardour.framework/Versions/A/ardour\ndone\n\n# Gusto\nfor TARGET in ${TARGETS} ; do\nLIBFILE=${LIBPATH}/${TARGET}\n\n for TARGET2 in ${TARGETS} ; do\n  TARGETID2=`otool -DX ${LIBPATH}/$TARGET2`\n  NEWTARGETID=${NEWLIBPATH}/${TARGET2}\n  install_name_tool -change ${TARGETID2} ${NEWTARGETID} ${LIBFILE}\n done\n\n TARGETID=`otool -DX ${LIBPATH}/$TARGET`\n NEWTARGETID=${NEWLIBPATH}/${TARGET}\n install_name_tool -id ${NEWTARGETID} ${LIBFILE}\n install_name_tool -change ${TARGETID} ${NEWTARGETID} ${EXECFILE}\n\ndone\n";
+		};
+		6933D56E0BBB332300E9B2A8 /* Update Version */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Update Version";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /usr/bin/perl;
+			shellScript = "# Xcode auto-versioning script for Subversion\n\nuse strict;\n\ndie \"$0: Must be run from Xcode\" unless $ENV{\"BUILT_PRODUCTS_DIR\"};\n\nmy $INFO = \"$ENV{BUILT_PRODUCTS_DIR}/$ENV{WRAPPER_NAME}/Contents/Info.plist\";\n\nopen(FH, \"$INFO\") or die \"$0: $INFO: $!\";\nmy $info = join(\"\", <FH>);\nclose(FH);\n\n$info =~ s/\\$Revision: (.*) \\$/$1/g;\n\nopen(FH, \">$INFO\") or die \"$0: $INFO: $!\";\nprint FH $info;\nclose(FH);\n";
+		};
+		69A5C8D90BA6335D00C0DBB6 /* Remove cruft */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			comments = "Remove all the Framework header files.";
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Remove cruft";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "find $BUILD_ROOT/$CONFIGURATION/$WRAPPER_NAME -name '*.h' -exec rm {} \\;\nfind $BUILD_ROOT/$CONFIGURATION/$WRAPPER_NAME -name '.DS_Store' -exec rm {} \\;";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D15AC300486D014006FF6A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC320486D014006FF6A4 /* main.m in Sources */,
+				69F90B050BAF78F5006F8C2D /* PSPreferencesController.mm in Sources */,
+				69F818110BB2241400E533E7 /* PSFastMeter.mm in Sources */,
+				69F818130BB2241400E533E7 /* PSMixerStrip.mm in Sources */,
+				69F818150BB2241400E533E7 /* PSMixerView.mm in Sources */,
+				69F818170BB2241400E533E7 /* PSMixerWindowController.mm in Sources */,
+				69F8181F0BB2242C00E533E7 /* PSControlsView.mm in Sources */,
+				69F818210BB2242C00E533E7 /* PSEditorTrack.mm in Sources */,
+				69F818230BB2242C00E533E7 /* PSEditorWindowController.mm in Sources */,
+				69F818330BB2244100E533E7 /* PSAddTrack.mm in Sources */,
+				69F818350BB2244100E533E7 /* PSAppController.mm in Sources */,
+				69F818370BB2244100E533E7 /* PSDocumentController.mm in Sources */,
+				69F818390BB2244100E533E7 /* PSNewDialogController.mm in Sources */,
+				69F8183B0BB2244100E533E7 /* PSRouteUI.mm in Sources */,
+				69F8183D0BB2244100E533E7 /* PSSessionDocument.mm in Sources */,
+				69F8183F0BB2244100E533E7 /* PSToggleButton.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1BD1084A0D237B0D0014F2E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = pbd;
+			targetProxy = 1BD108490D237B0D0014F2E5 /* PBXContainerItemProxy */;
+		};
+		1BD108970D237C820014F2E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ardour;
+			targetProxy = 1BD108960D237C820014F2E5 /* PBXContainerItemProxy */;
+		};
+		1BD108990D237C860014F2E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "midi++";
+			targetProxy = 1BD108980D237C860014F2E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		089C165FFE840EACC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1660FE840EACC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A37F4BAFDCFA73011CA2CEA /* English */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		691B16BC0B9BA7CE006C241B /* AddTrack.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				691B16BD0B9BA7CE006C241B /* English */,
+			);
+			name = AddTrack.nib;
+			sourceTree = "<group>";
+		};
+		695C2DBB0B8FC94B007B49A7 /* TrackControl.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				695C2DBC0B8FC94B007B49A7 /* English */,
+			);
+			name = TrackControl.nib;
+			sourceTree = "<group>";
+		};
+		69741E180BA8F92900FC5029 /* MixerWindow.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69741E190BA8F92900FC5029 /* English */,
+			);
+			name = MixerWindow.nib;
+			sourceTree = "<group>";
+		};
+		69A5C8580BA6220B00C0DBB6 /* EditorWindow.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69A5C8590BA6220B00C0DBB6 /* English */,
+			);
+			name = EditorWindow.nib;
+			sourceTree = "<group>";
+		};
+		69B1B5B20B8E91A0007E41C1 /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69B1B5B30B8E91A0007E41C1 /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+		69E685060B9270FD00445684 /* NewSessionWindow.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69E685070B9270FD00445684 /* English */,
+			);
+			name = NewSessionWindow.nib;
+			sourceTree = "<group>";
+		};
+		69F2CAD10BAB297200BBA695 /* MixerStrip.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69F2CAD20BAB297200BBA695 /* English */,
+			);
+			name = MixerStrip.nib;
+			sourceTree = "<group>";
+		};
+		69F90AFD0BAF782B006F8C2D /* PreferencesWindow.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69F90AFE0BAF782B006F8C2D /* English */,
+			);
+			name = PreferencesWindow.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0BA121AB0D35E4D900B40195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = Dependents;
+			};
+			name = Debug;
+		};
+		0BA121AC0D35E4D900B40195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = Dependents;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		C05733C808A9546B00998B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)\"";
+				GCC_CW_ASM_SYNTAX = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Gusto_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_2)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_3)",
+					"\"$(SRCROOT)/libs/local/lib\"",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/libs/local/lib\"";
+				PRODUCT_NAME = Gusto;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		C05733C908A9546B00998B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_2)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SYSTEM_DEVELOPER_DIR)/SDKs/MacOSX10.5.sdk/System/Library/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_2 = "\"$(SRCROOT)\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../Frameworks/Release\"";
+				GCC_CW_ASM_SYNTAX = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Gusto_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_3)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_4)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_5)",
+					"\"$(SRCROOT)/libs/local/lib\"",
+				);
+				PRODUCT_NAME = Gusto;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C05733CC08A9546B00998B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 0.1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"build/Release/**",
+					"build/Debug/**",
+				);
+				GCC_CW_ASM_SYNTAX = NO;
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_OBJC_CALL_CXX_CDTORS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Gusto_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					GLIBMM_DISABLE_DEPRECATED,
+					LIBSIGC_DISABLE_DEPRECATED,
+				);
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/include/libxml2,
+					libs/surfaces/control_protocol,
+					libs/boost,
+					"libs/local/include/glib-2.0",
+					libs/local/include,
+					"libs/local/lib/sigc++-2.0/include",
+					"libs/local/include/sigc++-2.0",
+					"libs/local/lib/glib-2.0/include",
+					"libs/local/lib/glibmm-2.4/include",
+					"libs/local/include/glibmm-2.4",
+				);
+				LIBRARY_SEARCH_PATHS = libs/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PREBINDING = NO;
+				PRODUCT_NAME = Gusto;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+				VERSIONING_SYSTEM = "";
+			};
+			name = Debug;
+		};
+		C05733CD08A9546B00998B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(NATIVE_ARCH)";
+				CURRENT_PROJECT_VERSION = 0.1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(BUILD_DIR)/$(CONFIGURATION)";
+				GCC_CW_ASM_SYNTAX = NO;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OBJC_CALL_CXX_CDTORS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					GLIBMM_DISABLE_DEPRECATED,
+					LIBSIGC_DISABLE_DEPRECATED,
+				);
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/include/libxml2,
+					libs/surfaces/control_protocol,
+					libs/boost,
+					"libs/local/include/glib-2.0",
+					libs/local/include,
+					"libs/local/lib/sigc++-2.0/include",
+					"libs/local/include/sigc++-2.0",
+					"libs/local/lib/glib-2.0/include",
+					"libs/local/lib/glibmm-2.4/include",
+					"libs/local/include/glibmm-2.4",
+				);
+				LIBRARY_SEARCH_PATHS = libs/local/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PREBINDING = NO;
+				PRODUCT_NAME = Gusto;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+				VERSIONING_SYSTEM = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BA121AF0D35E4FF00B40195 /* Build configuration list for PBXAggregateTarget "Dependents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BA121AB0D35E4D900B40195 /* Debug */,
+				0BA121AC0D35E4D900B40195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "Gusto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05733C808A9546B00998B17 /* Debug */,
+				C05733C908A9546B00998B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "Gusto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05733CC08A9546B00998B17 /* Debug */,
+				C05733CD08A9546B00998B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
+}

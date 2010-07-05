@@ -1,0 +1,108 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                alignCenter = id; 
+                alignJustified = id; 
+                alignLeft = id; 
+                alignRight = id; 
+                arrangeInFront = id; 
+                centerSelectionInVisibleArea = id; 
+                changeFont = id; 
+                checkSpelling = id; 
+                clear = id; 
+                clearRecentDocuments = id; 
+                complete = id; 
+                copy = id; 
+                copyFont = id; 
+                copyRuler = id; 
+                cut = id; 
+                delete = id; 
+                deminiaturize = id; 
+                fax = id; 
+                hide = id; 
+                hideOtherApplications = id; 
+                loosenKerning = id; 
+                lowerBaseline = id; 
+                makeKeyAndOrderFront = id; 
+                miniaturize = id; 
+                newDocument = id; 
+                openDocument = id; 
+                orderBack = id; 
+                orderFront = id; 
+                orderFrontColorPanel = id; 
+                orderFrontHelpPanel = id; 
+                orderOut = id; 
+                outline = id; 
+                paste = id; 
+                pasteAsPlainText = id; 
+                pasteAsRichText = id; 
+                pasteFont = id; 
+                pasteRuler = id; 
+                pause = id; 
+                performClose = id; 
+                performFindPanelAction = id; 
+                performMiniaturize = id; 
+                performZoom = id; 
+                play = id; 
+                print = id; 
+                printDocument = id; 
+                raiseBaseline = id; 
+                record = id; 
+                redo = id; 
+                resume = id; 
+                revertDocumentToSaved = id; 
+                run = id; 
+                runPageLayout = id; 
+                runToolbarCustomizationPalette = id; 
+                saveAllDocuments = id; 
+                saveDocument = id; 
+                saveDocumentAs = id; 
+                saveDocumentTo = id; 
+                selectAll = id; 
+                selectText = id; 
+                showGuessPanel = id; 
+                showHelp = id; 
+                start = id; 
+                startSpeaking = id; 
+                stop = id; 
+                stopSpeaking = id; 
+                subscript = id; 
+                superscript = id; 
+                terminate = id; 
+                tightenKerning = id; 
+                toggleContinuousSpellChecking = id; 
+                toggleRuler = id; 
+                toggleToolbarShown = id; 
+                turnOffKerning = id; 
+                turnOffLigatures = id; 
+                underline = id; 
+                undo = id; 
+                unhideAllApplications = id; 
+                unscript = id; 
+                useAllLigatures = id; 
+                useStandardKerning = id; 
+                useStandardLigatures = id; 
+            }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {addTrack = id; }; 
+            CLASS = MyDocument; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {canvasView = CanvasView; controlsView = ControlsView; }; 
+            SUPERCLASS = NSDocument; 
+        }, 
+        {CLASS = PSControlsView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {
+            ACTIONS = {play = id; record = id; stop = id; }; 
+            CLASS = PSEditorWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {controlsView = PSControlsView; }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

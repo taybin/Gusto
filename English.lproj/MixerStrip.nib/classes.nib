@@ -1,0 +1,44 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = PSMixerStrip; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                color = NSColorWell; 
+                comments = NSView; 
+                expand = NSButton; 
+                fader = NSView; 
+                gainField = NSTextField; 
+                inputBtn = NSButton; 
+                outputBtn = NSButton; 
+                panners = NSView; 
+                peakField = NSTextField; 
+                postFaderList = NSTableColumn; 
+                preFaderList = NSTableColumn; 
+                stripView = NSView; 
+            }; 
+            SUPERCLASS = PSRouteUI; 
+        }, 
+        {
+            ACTIONS = {
+                mutePressed = id; 
+                muteShiftClicked = id; 
+                recordPressed = id; 
+                recordShiftClicked = id; 
+                soloPressed = id; 
+                soloShiftClicked = id; 
+            }; 
+            CLASS = PSRouteUI; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                muteBtn = PSToggleButton; 
+                recordBtn = PSToggleButton; 
+                soloBtn = PSToggleButton; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = PSToggleButton; LANGUAGE = ObjC; SUPERCLASS = NSButton; }
+    ); 
+    IBVersion = 1; 
+}
