@@ -1,0 +1,83 @@
+#!/usr/bin/env python
+import autowaf
+import os
+import sys
+
+# Version of this package (even if built as a child)
+MAJOR = '2'
+MINOR = '1'
+MICRO = '1'
+LIBMIDIPP_VERSION = "%s.%s.%s" % (MAJOR, MINOR, MICRO)
+
+# Library version (UNIX style major, minor, micro)
+# major increment <=> incompatible changes
+# minor increment <=> compatible changes (additions)
+# micro increment <=> no interface changes
+LIBMIDIPP_LIB_VERSION = '4.1.0'
+
+# Variables for 'waf dist'
+APPNAME = 'libmidipp'
+VERSION = LIBMIDIPP_VERSION
+
+# Mandatory variables
+srcdir = '.'
+blddir = 'build'
+
+path_prefix = 'libs/midi++2/'
+
+def set_options(opt):
+	autowaf.set_options(opt)
+
+def configure(conf):
+	autowaf.build_version_files(path_prefix+'midi++/version.h', path_prefix+'version.cc',
+			'midipp', MAJOR, MINOR, MICRO)
+	autowaf.configure(conf)
+	conf.check_tool('compiler_cxx')
+	autowaf.check_pkg(conf, 'jack', uselib_store='JACK', atleast_version='0.118.2')
+	autowaf.check_pkg(conf, 'libxml-2.0', uselib_store='XML')
+	autowaf.check_pkg(conf, 'sigc++-2.0', uselib_store='SIGCPP', atleast_version='2.0')
+
+	# Boost headers
+	autowaf.check_header(conf, 'boost/shared_ptr.hpp')
+	autowaf.check_header(conf, 'boost/weak_ptr.hpp')
+
+def build(bld):
+	# Library
+	obj = bld.new_task_gen('cxx', 'shlib')
+	obj.source = '''
+		fd_midiport.cc
+		fifomidi.cc
+		midi.cc
+		channel.cc
+		factory.cc
+		manager.cc
+		parser.cc
+		port.cc
+		midnam_patch.cc
+		mmc.cc
+		mtc.cc
+		version.cc
+	'''
+	# everybody loves JACK
+	obj.source += ' jack_midiport.cc '
+	obj.cxxflags = [ '-DWITH_JACK_MIDI' ]
+	if bld.env['HAVE_COREAUDIO'] and bld.env['COREAUDIO']:
+		# OS X
+		obj.source += ' coremidi_midiport.cc '
+		obj.cxxflags += [ '-DWITH_COREMIDI' ]
+	elif sys.platform == 'linux':
+		# linux
+		obj.source += ' alsa_sequencer_midiport.cc '
+		obj.cxxflags += [ '-DWITH_ALSA' ]
+	obj.export_incdirs = ['.']
+	obj.includes     = ['.', '../surfaces/control_protocol']
+	obj.name         = 'libmidipp'
+	obj.target       = 'midipp'
+	obj.uselib       = 'GLIBMM SIGCPP XML JACK OSX COREAUDIO'
+	obj.uselib_local = 'libpbd libevoral'
+	obj.vnum         = LIBMIDIPP_LIB_VERSION
+	obj.install_path = os.path.join(bld.env['LIBDIR'], 'ardour3')
+
+def shutdown():
+	autowaf.shutdown()
+
