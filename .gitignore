@@ -1,14 +1,4 @@
-*.lo
-*.o
-*.la
-.libs
-autowaf.pyc
-Makefile
-.waf-*
-libs/local
-config.h
-config.status
-config.log
-*.pc
+build
 
-!libs/Makefile
+*.mode1v3
+*.pbxuser
