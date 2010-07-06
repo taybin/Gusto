@@ -1,0 +1,2 @@
+#define HAVE_EXECINFO 1
+#define HAVE_UNISTD 1
