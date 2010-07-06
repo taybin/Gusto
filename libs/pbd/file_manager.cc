@@ -29,6 +29,8 @@
 #include "pbd/file_manager.h"
 #include "pbd/debug.h"
 
+#include <mach/mach_time.h>
+
 using namespace std;
 using namespace PBD;
 
@@ -110,9 +112,7 @@ FileManager::allocate (FileDescriptor* d)
 		DEBUG_TRACE (DEBUG::FileManager, string_compose ("opened file for %1; now have %2 of %3 open.\n", d->_name, _open, _max_open));
 	}
 
-	struct timespec t;
-	clock_gettime (CLOCK_MONOTONIC, &t);
-	d->_last_used = t.tv_sec + (double) t.tv_nsec / 10e9;
+	d->_last_used = mach_absolute_time();
 
 	d->_refcount++;
 	
